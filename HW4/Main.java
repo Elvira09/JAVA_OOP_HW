@@ -11,11 +11,11 @@ import HWJavaOOP.HW4.IsGood.IsPositive;
 
 public class Main {
     public static void main(String[] args) {
-        List<String> ob1 = new ArrayList<>(Arrays.asList("Abb", "bbc", "CCd", "Abb", "dde"));
+        List<String> ob1 = new ArrayList<>(Arrays.asList("Abb", "bbc", "CCd"));
         List<Integer> ob2 = new ArrayList<>(Arrays.asList(23, -45, -26, 45, 78, 456, -2, 6, -9));
 
-        Filter f1 = new Filter<String>(ob1);
-        Filter f2 = new Filter<Integer>(ob2);
+        Filter <String>f1 = new Filter<String>(ob1);
+        Filter <Integer> f2 = new Filter<Integer>(ob2);
 
         System.out.println(f2.filter(f2, new IsEven())); 
         System.out.println(f2.filter(f2, new IsPositive())); 

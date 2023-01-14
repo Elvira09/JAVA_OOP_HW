@@ -1,10 +1,10 @@
 package HWJavaOOP.HW4.IsGood;
 
-public class IsEven<Integer> extends IsGood<Integer>{
+public class IsEven extends IsGood<Integer>{
 
     @Override
     public boolean isGood(Integer item) {
-        return (int) item % 2 == 0;
+        return item % 2 == 0;
     }
 
     
