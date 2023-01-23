@@ -1,0 +1,4 @@
+Anna Smirnova :    attendance 2022-09-02 false,    attendance 2022-10-04 true,    attendance 2022-11-12 true,    attendance 2022-12-24 false,    attendance 2023-01-12 false, 
+Ivan Petrov :    attendance 2022-09-02 true,    attendance 2022-10-04 true,    attendance 2022-11-12 true,    attendance 2022-12-24 true,    attendance 2023-01-12 true, 
+Ivan Boyko :    attendance 2022-09-02 true,    attendance 2022-10-04 false,    attendance 2022-11-12 false,    attendance 2022-12-24 false,    attendance 2023-01-12 false, 
+Igor Ivanov :    attendance 2022-09-02 true,    attendance 2022-10-04 true,    attendance 2022-11-12 false,    attendance 2022-12-24 true,    attendance 2023-01-12 false,
