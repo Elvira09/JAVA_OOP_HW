@@ -3,13 +3,11 @@ package HWJavaOOP.HW4;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-import HWJavaOOP.HW4.IsGood.BeginsWith;
 import HWJavaOOP.HW4.IsGood.IsGood;
 
 public class Filter<T> implements Iterable<T> {
 
     private Iterable<T> array;
-    private T item;
 
     public Filter(Iterable<T> array) {
         this.array = array;
